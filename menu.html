@@ -1,0 +1,39 @@
+<html>
+  <head><title></title>
+    <link href="menu.css" type="text/css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="menu.js"></script>
+
+    <script>document.createElement( "picture" );</script>
+    <script src="picturefill.js" async></script>
+
+  </head>
+  <body>
+      <div class="wrapper">
+        <header>
+          <h1 class="logo"><a href="#"><img src="images/logo.png" width="100px"></img></a></h1>
+          <nav>
+            <a class="burger-nav"></a>
+            <ul>
+              <li><a href="#">About me</a></li>
+              <li><a href="#">My Works</a></li>
+              <li><a href="#">Me on ekşi</a></li>
+              <li><a href="#">Türkçe</a>
+              </li>
+              <li><a href="#">In English</a>
+              </li>
+            </ul>
+          </nav>
+
+          <div id="banner">
+            <picture>
+              <source srcset="images/banner-small.png" media="(max-width:480px)">
+              <source srcset="images/banner-medium.png" media="(max-width:768px)">
+              <img srcset="images/banner.png" alt="pic">
+            </picture>
+          </div>
+
+        </header>
+      </div>
+  </body>
+</html>
